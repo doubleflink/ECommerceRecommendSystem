@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [28/Aug/2020:10:21:20 +0800] "GET /rest/users/login?username=w&password=w HTTP/1.1" 500 6666 http-bio-8088-exec-1 30083
+0:0:0:0:0:0:0:1 - - [28/Aug/2020:10:21:44 +0800] "GET /rest/users/login?username=w&password=w HTTP/1.1" 200 134 http-bio-8088-exec-2 147
+0:0:0:0:0:0:0:1 - - [28/Aug/2020:10:21:44 +0800] "GET /rest/product/stream?num=6&username=w HTTP/1.1" 500 4212 http-bio-8088-exec-4 94
+0:0:0:0:0:0:0:1 - - [28/Aug/2020:10:21:44 +0800] "GET /rest/product/hot?num=6&username=w HTTP/1.1" 200 2087 http-bio-8088-exec-3 314
+0:0:0:0:0:0:0:1 - - [28/Aug/2020:10:21:44 +0800] "GET /rest/product/rate?num=6&username=w HTTP/1.1" 200 2063 http-bio-8088-exec-5 312
+0:0:0:0:0:0:0:1 - - [28/Aug/2020:10:21:44 +0800] "GET /rest/product/offline?num=6&username=w HTTP/1.1" 200 6519 http-bio-8088-exec-6 323
+192.241.225.68 - - [28/Aug/2020:13:39:12 +0800] "GET / HTTP/1.1" 200 911 http-bio-8088-exec-1 10
